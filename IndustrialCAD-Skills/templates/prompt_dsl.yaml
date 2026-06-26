@@ -1,0 +1,22 @@
+---
+prompt_dsl_version: 1.0
+steps:
+  - name: Design Intent / 设计意图
+    type: object
+    fields:
+      - intent: string
+  - name: Constraint / 约束
+    type: list
+  - name: Material / 材料
+    type: object
+  - name: Manufacturing / 制造
+    type: object
+  - name: Assembly / 装配
+    type: object
+  - name: Validation / 验证
+    type: object
+  - name: Output / 输出
+    type: object
+notes: |
+  EN: The Prompt DSL enforces a standardized sequence: Design Intent -> Constraint -> Material -> Manufacturing -> Assembly -> Validation -> Output
+  CN: Prompt DSL 强制标准化顺序：设计意图 -> 约束 -> 材料 -> 加工 -> 装配 -> 验证 -> 输出

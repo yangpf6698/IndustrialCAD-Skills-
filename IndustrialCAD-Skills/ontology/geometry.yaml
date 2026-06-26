@@ -1,0 +1,20 @@
+---
+Plate:
+  description: "A flat plate or sheet-like component often used in sheet metal and structural parts."
+  attributes:
+    thickness:
+      type: number
+      units: mm
+      description: "Nominal plate thickness"
+    length:
+      type: number
+      units: mm
+    width:
+      type: number
+      units: mm
+  manufacturing:
+    preferred_process: [laser_cutting, punching]
+  constraints:
+    minimum_thickness: 1.5
+    preferred_thickness: 3
+    max_aspect_ratio: 15

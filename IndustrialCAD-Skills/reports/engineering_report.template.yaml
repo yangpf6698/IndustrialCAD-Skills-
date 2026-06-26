@@ -1,0 +1,17 @@
+name: Industrial Engineering Report / 工程报告模板
+version: 1.0
+fields:
+  Overall Score:
+    type: number
+  Manufacturability:
+    type: number
+  Assembly:
+    type: number
+  Cost:
+    type: number
+  Safety:
+    type: number
+  Material Utilization:
+    type: number
+  Recommendations:
+    type: list
